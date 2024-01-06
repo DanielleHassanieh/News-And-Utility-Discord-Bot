@@ -1,1 +1,1 @@
-# News-And-Utility-Web-Scrape-Discord-Bot
+# News-And-Utility-Discord-Bot
