@@ -1,4 +1,6 @@
 .env
-.venv
+.venv/
 node_modules
-.idea
+.idea/
+/src/modules/AP-News/ap-news-output/
+/src/modules/AAA-Gas-Prices/gas-prices-output/
