@@ -2,5 +2,5 @@
 .venv/
 node_modules
 .idea/
-/src/modules/AP-News/ap-news-output/
-/src/modules/AAA-Gas-Prices/gas-prices-output/
+src/modules/AAA-Gas-Prices/gas-prices-output
+src/modules/AP-News/ap-news-output

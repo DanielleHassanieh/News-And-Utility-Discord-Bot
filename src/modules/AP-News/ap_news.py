@@ -72,10 +72,11 @@ for article_link in article_links:
     articles.append(article)
 
 # check if output directory doesn't exist
-if not os.path.exists("./ap-news-output/"):
-    os.makedirs("./ap-news-output/")
+file_dir = "./ap-news-output/"
+if not os.path.exists(file_dir):
+    os.makedirs(file_dir)
 
-with open(f"./ap-news-output/ap-news-{date.today()}.json", "w") as outfile:
+with open(f"{file_dir}ap-news-{date.today()}.json", "w") as outfile:
     data_write = json.dumps(articles, indent=4)
     outfile.write(data_write)
 
